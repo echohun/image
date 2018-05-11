@@ -25,3 +25,9 @@ subplot(2,2,1);stem(n,x);
 N=length(n);
 x3=rand(1,N);
 subplot(2,2,3);stem(n,x3);
+
+正弦序列
+
+x=-30:30;
+y=sin(0.2*x);
+subplot(2,2,1);stem(x,y);
