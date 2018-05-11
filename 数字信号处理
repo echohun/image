@@ -8,9 +8,10 @@ stem(k,uk);
 
 复指数序列
 
-
-
-
+clear all
+x=-10:10;
+y=exp((0.7+3.14i)*x);
+subplot(2,2,1);stem(x,y);
 
 
 实指数序列
